@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Echo</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+      /* Raleway */
+    </style>
+  </head>
+  <body class="w-[375px] m-auto md:w-[1440px]">
+    <!-- ======mobile====== -->
+    <nav
+      class="flex items-center justify-between bg-[#FCFFFD] w-[375px] h-[82px] border-b-1 pt-[36px] pb-[10px] px-[20px] md:hidden"
+    >
+      <img src="/Frame 33.png" alt="" />
+
+      <div class="flex gap-[20px]">
+        <p class="font-[Raleway] font-medium text-[#181D27] text-[16px]">
+          English
+        </p>
+
+        <img src="/arrow-down.png" alt="" />
+
+        <img src="/menu.png" alt="" />
+      </div>
+    </nav>
+
+    <!-- =====desktop===== -->
+
+    <nav
+      class="md:flex md:items-center md:justify-between md:w-[1440px] md:h-[93px] pt-[36px] pb-[10px] px-[70px] md:m-auto md:block hidden"
+    >
+      <img src="/Frame 33.png" alt="" />
+
+      <div
+        class="flex justify-between w-[218px] font-[Raleway] font-medium text-center text-[#181D27] text-[18px]"
+      >
+        <p>Features</p>
+        <p>Testimonials</p>
+      </div>
+
+      <div class="md:flex items-center md:gap-[16px] w-[368px] h-[50px]">
+        <p class="font-[Raleway] font-medium text-[#181D27] text-[18px]">
+          English
+        </p>
+
+        <img src="/arrow-down.png" alt="" />
+
+        <div class="flex gap-[16px]">
+          <button
+            class="bg-[#039122] rounded-[10px] w-[151px] h-[50px] py-[11px] px-[42px] font-[Raleway] font-medium text-[18px] text-white"
+          >
+            Sign Up
+          </button>
+
+          <button
+            class="rounded-[10px] w-[151px] h-[50px] py-[11px] px-[42px] font-[Raleway] font-medium text-[18px] text-[#CA7F4D] border"
+          >
+            Sign In
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="flex flex-col bg-[url(bgimg.png)] w-[375px] h-[481px] items-center px-[84.43px] m-auto gap-[35px] md:hidden"
+    >
+      <!-- <img src="/bg img.png" alt="" class="absolute" /> -->
+      <div class="flex flex-col gap-[23px] pt-[40px] px-[20px]">
+        <h1
+          class="font-[Raleway] font-bold text-[#181D27] text-[30px] text-[#DDFDE4] leading-[38px] text-center w-[350px]"
+        >
+          Empowering Citizens, Strengthening Governance in
+          <span
+            class="bg-[#CA7F4D] w-[70px] h-[36px] rounded-[11px] py-[2px] px-[10px]"
+            >Ekiti</span
+          >
+        </h1>
+
+        <p
+          class="font-[Raleway] font-medium text-center text-[#DDFDE4] text-[18px] leading-[28px] w-[330px]"
+        >
+          Building a transparent, inclusive Ekiti where public services are
+          accessible and citizens play an active role in governance.
+        </p>
+      </div>
+
+      <div class="flex flex-col top-[335px] w-[335px] h-[116px] gap-[16px]">
+        <button
+          class="bg-[#039122] rounded-[10px] w-[335px] h-[50px] py-[11px] px-[42px] font-[Raleway] font-medium text-[18px] text-white"
+        >
+          Sign Up
+        </button>
+
+        <button
+          class="rounded-[10px] w-[335px] h-[50px] py-[11px] px-[42px] font-[Raleway] font-medium text-[18px] text-[#CA7F4D] border"
+        >
+          Sign In
+        </button>
+      </div>
+    </section>
+
+    <!-- =================desktop==================== -->
+
+    <section
+      class="flex flex-col bg-cover bg-center bg-brightness-50 bg-[url(a497fe90c43d557e2195fec24d96421f4a22194d.jpg)] w-[1440px] h-[681px] items-center px-[84.43px] m-auto gap-[35px] md:block hidden"
+    >
+      <div class="flex flex-col items-centre w-[785px] h-[410px] gap-[24px]">
+        <div class="flex flex-col gap-[43px] pt-[80px] px-[24px]">
+          <h1
+            class="font-[Raleway] font-bold text-[60px] text-[#DDFDE4] leading-[72px] text-start w-[780px]"
+          >
+            Empowering Citizens, Strengthening Governance in
+            <span
+              class="bg-[#CA7F4D] w-[123px] h-[54px] rounded-[11px] py-[2px] px-[10px]"
+              >Ekiti</span
+            >
+          </h1>
+
+          <p
+            class="font-[Raleway] font-medium text-start text-[#DDFDE4] text-[24px] leading-[32px] w-[649px]"
+          >
+            Building a transparent, inclusive Ekiti where public services are
+            accessible and citizens play an active role in governance.
+          </p>
+        </div>
+
+        <div class="flex top-[335px] w-[335px] h-[116px] gap-[16px]">
+          <button
+            class="bg-[#039122] rounded-[10px] w-[335px] h-[50px] py-[11px] px-[42px] font-[Raleway] font-medium text-[18px] text-white"
+          >
+            Sign Up
+          </button>
+
+          <button
+            class="rounded-[10px] w-[335px] h-[50px] py-[11px] px-[42px] font-[Raleway] font-medium text-[18px] text-[#CA7F4D] border"
+          >
+            Sign In
+          </button>
+        </div>
+      </div>
+
+      <img
+        src="/messages-square.png"
+        alt=""
+        class="absolute top-[650px] left-[1500px]"
+      />
+    </section>
+
+    <section flex flex-col gap-[20px] w-[338px] h-[999px] m-auto md:hidden>
+      <div
+        class="w-[338px] h-[197px] flex flex-col mt-[20px] gap-[30px] md:hidden"
+      >
+        <p
+          class="font-[Raleway] font-bold text-center text-[#181D27] text-[14px]"
+        >
+          FEATURES
+        </p>
+        <p
+          class="font-[Raleway] font-bold text-center text-[#CA7F4D] text-[20px] leading-[30px]"
+        >
+          Your Gateway to Smarter Civic Engagement
+        </p>
+        <p
+          class="font-[Raleway] font-medium text-center text-[#414651] text-[16px] leading-[24px]"
+        >
+          Explore local initiatives, share feedback, and get real-time
+          updates—all in one simple app.
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-[40px] md:hidden">
+        <div
+          class="flex flex-col items-center gap-[10px] p-[15px] w-[375px] h-[234px]"
+        >
+          <img src="/share1.png" alt="" />
+
+          <p
+            class="font-semibold font-[Raleway] text-black text-center text-[20px] leading-[30px] w-[300px]"
+          >
+            Share your experience & feedback
+          </p>
+
+          <p
+            class="font-[Raleway] font-medium text-center text-[#011605] text-[16px] leading-[24px] w-[]"
+          >
+            Your voice matters. Tell us what's working and what needs
+            attention—your feedback helps shape better policies and services.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col items-center gap-[10px] p-[15px] w-[375px] h-[254px]"
+        >
+          <img src="/explore3.png" alt="" />
+
+          <p
+            class="font-semibold font-[Raleway] text-black text-center text-[20px] leading-[30px] w-[300px]"
+          >
+            Explore government initiatives near you
+          </p>
+
+          <p
+            class="font-[Raleway] font-medium text-center text-[#011605] text-[16px] leading-[24px] w-[350px]"
+          >
+            Discover projects and programs happening in your community. From
+            health to infrastructure, see how the government is working to
+            improve lives around you.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col items-center gap-[10px] p-[15px] w-[375px] h-[254px]"
+        >
+          <img src="/updtae.png" alt="" />
+
+          <p
+            class="font-semibold font-[Raleway] text-black text-center text-[20px] leading-[30px] w-[300px]"
+          >
+            Stay Informed with Real-Time Updates
+          </p>
+
+          <p
+            class="font-[Raleway] font-medium text-center text-[#011605] text-[16px] leading-[24px]"
+          >
+            Get instant access to the latest news, announcements, and progress
+            reports from your local and state government all in one place.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========desktop for above section========= -->
+
+    <section
+      class="flex flex-col mt-[80px] gap-[30px] w-[1242px] h-[896px] m-auto md:block hidden"
+    >
+      <div
+        class="w-[1242px] h-[246px] flex flex-col items-center mt-[20px] gap-[30px]"
+      >
+        <p
+          class="font-[Raleway] font-bold text-center text-[#181D27] text-[16px]"
+        >
+          FEATURES
+        </p>
+        <p
+          class="font-[Raleway] font-bold text-center text-[#CA7F4D] text-[48px] leading-[60px] w-[600px]"
+        >
+          Your Gateway to Smarter Civic Engagement
+        </p>
+        <p
+          class="font-[Raleway] font-medium text-center text-[#414651] text-[20px] leading-[30px] w-[600px]"
+        >
+          Explore local initiatives, share feedback, and get real-time
+          updates—all in one simple app.
+        </p>
+      </div>
+
+      <div class="flex justify-between w-[1242px] h-[620px] mt-[70px]">
+        <div>
+          <div
+            class="flex flex-col items-start gap-[10px] p-[15px] w-[628px] h-[194px]"
+          >
+            <img src="/1hsare5.png" alt="" />
+
+            <p
+              class="font-semibold font-[Raleway] text-black text-start text-[20px] leading-[30px]"
+            >
+              Share your experience & feedback
+            </p>
+
+            <p
+              class="font-[Raleway] font-medium text-start text-[#011605] text-[16px] leading-[24px]"
+            >
+              Your voice matters. Tell us what's working and what needs
+              attention—your feedback helps shape better policies and services.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-start gap-[10px] p-[15px] w-[628px] h-[194px]"
+          >
+            <img src="/2shareFrame5.png" alt="" />
+
+            <p
+              class="font-semibold font-[Raleway] text-black text-start text-[20px] leading-[30px]"
+            >
+              Explore government initiatives near you
+            </p>
+
+            <p
+              class="font-[Raleway] font-medium text-center text-[#011605] text-[16px] leading-[24px]"
+            >
+              Discover projects and programs happening in your community. From
+              health to infrastructure, see how the government is working to
+              improve lives around you.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-start gap-[10px] p-[15px] w-[628px] h-[194px]"
+          >
+            <img src="/3shareFrame7.png" alt="" />
+
+            <p
+              class="font-semibold font-[Raleway] text-black text-start text-[20px] leading-[30px]"
+            >
+              Stay Informed with Real-Time Updates
+            </p>
+
+            <p
+              class="font-[Raleway] font-medium text-start text-[#011605] text-[16px] leading-[24px]"
+            >
+              Get instant access to the latest news, announcements, and progress
+              reports from your local and state government all in one place.
+            </p>
+          </div>
+        </div>
+
+        <img src="/phoneFrame34.png" alt="" width="500px" />
+      </div>
+    </section>
+
+    <!-- ========================================= -->
+
+    <section
+      class="flex flex-col items-center gap-[39px] py-[40px] px-[10px] w-[375px] h-[1056px] mt-[50px] bg-[#D7FFE0] md:hidden"
+    >
+      <div class="flex flex-col gap-[40px] w-[335px] h-[743p]">
+        <div class="flex flex-col gap-[20px]">
+          <p
+            class="font-bold font-[Raleway] text-[14px] text-[#252B37] text-center"
+          >
+            KEY BENEFITS
+          </p>
+
+          <p
+            class="font-bold font-[Raleway] text-[18px] text-[#CA7F4D] text-center"
+          >
+            Making Governance Accessible
+          </p>
+        </div>
+
+        <div class="w-[335px] h-[645px] flex flex-col gap-[40px]">
+          <div class="flex flex-col gap-[10px] items-center">
+            <img src="/1cloud-nat-svgrepo-com.png" alt="" />
+
+            <p class="font-[Raleway] font-semibold text-[20px] text-[#181D27]">
+              Easy Feedback Channels
+            </p>
+          </div>
+
+          <div class="flex flex-col gap-[10px] items-center">
+            <img src="/2project-svgrepo-com 1.png" alt="" />
+
+            <p class="font-[Raleway] font-semibold text-[20px] text-[#181D27]">
+              Community Centered Design
+            </p>
+          </div>
+
+          <div class="flex flex-col gap-[10px] items-center">
+            <img src="/3access-context-manager-svgrepo-com.png" alt="" />
+
+            <p class="font-[Raleway] font-semibold text-[20px] text-[#181D27]">
+              Verified Government Updates
+            </p>
+          </div>
+
+          <div class="flex flex-col gap-[10px] items-center">
+            <img src="/4catalog-svgrepo-com.png" alt="" />
+
+            <p
+              class="font-[Raleway] font-semibold text-[20px] text-center text-[#181D27] w-[300px]"
+            >
+              Empowerment Through Awareness
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-[40px]">
+        <p
+          class="font-bold font-[Raleway] text-[14px] text-[#252B37] text-center"
+        >
+          PARTNERS
+        </p>
+
+        <div class="flex gap-[50px] overflow-hidden">
+          <img src="/lasgimage.png" alt="" />
+
+          <img src="/lasg2image.png" alt="" />
+
+          <img src="/lasg4image.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- ============desktop for above sect=========== -->
+    <section
+      class="flex flex-col items-center gap-[75px] w-[1242px] h-[613px] mt-[100px] m-auto md:block hidden"
+    >
+      <div class="flex flex-col gap-[40px] m-auto w-[1242px] h-[390p]">
+        <div class="flex flex-col gap-[30px]">
+          <p
+            class="font-bold font-[Raleway] text-[16px] text-[#252B37] text-center"
+          >
+            KEY BENEFITS
+          </p>
+
+          <p
+            class="font-bold font-[Raleway] text-[48px] text-[#CA7F4D] text-center"
+          >
+            Making Governance Accessible
+          </p>
+        </div>
+
+        <div class="w-[1235px] items-center m-auto h-[251px] flex gap-[21px]">
+          <div
+            class="flex flex-col gap-[10px] w-[293px] h-[221px] items-center py-[15px]"
+          >
+            <img src="/1cloud-nat-svgrepo-com.png" alt="" />
+
+            <p
+              class="font-[Raleway] text-center font-semibold text-[20px] text-[#181D27] w-[282px]"
+            >
+              Easy Feedback Channels
+            </p>
+
+            <p
+              class="font-medium font-[Raleway] text-[16px] leading-[24px] text-center"
+            >
+              Share your thoughts or concerns directly your voice helps shape
+              better governance.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col gap-[10px] w-[293px] h-[221px] items-center py-[15px]"
+          >
+            <img src="/2project-svgrepo-com 1.png" alt="" />
+
+            <p
+              class="font-[Raleway] text-center font-semibold text-[20px] text-[#181D27] w-[282px]"
+            >
+              Community Centered Design
+            </p>
+
+            <p
+              class="font-medium font-[Raleway] text-[16px] leading-[24px] text-center"
+            >
+              Built with citizens in mind, our platform is intuitive,
+              accessible, and made for everyday use.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col gap-[10px] w-[293px] h-[221px] items-center py-[15px]"
+          >
+            <img src="/3access-context-manager-svgrepo-com.png" alt="" />
+
+            <p
+              class="font-[Raleway] text-center font-semibold text-[20px] text-[#181D27] w-[282px]"
+            >
+              Verified Government Updates
+            </p>
+
+            <p
+              class="font-medium font-[Raleway] text-[16px] leading-[24px] text-center"
+            >
+              No rumors—just accurate, real-time information from trusted
+              official sources.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col gap-[10px] w-[293px] h-[221px] items-center py-[15px]"
+          >
+            <img src="/4catalog-svgrepo-com.png" alt="" />
+
+            <p
+              class="font-[Raleway] text-center font-semibold text-[20px] text-[#181D27] w-[282px]"
+            >
+              Empowerment Through Awareness
+            </p>
+
+            <p
+              class="font-medium font-[Raleway] text-[16px] leading-[24px] text-center"
+            >
+              Know what's happening, why it matters, and how you can be part of
+              the change.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col mt-[30px] gap-[24px]">
+        <p
+          class="font-bold font-[Raleway] text-[14px] text-[#252B37] text-center"
+        >
+          PARTNERS
+        </p>
+
+        <div class="flex justify-between items-center gap-[50px]">
+          <img src="/lasgimage.png" alt="" />
+
+          <img src="/lasg2image.png" alt="" />
+
+          <img src="/lasg4image.png" alt="" />
+
+          <img src="/1111111image.png" alt="" />
+
+          <img src="/1111122222222image.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================== -->
+
+    <section
+      class="flex flex-col m-auto gap-[40px] mt-[50px] h-[890px] w-[338px] md:hidden"
+    >
+      <p
+        class="font-bold font-[Raleway] text-[18px] text-[#CA7F4D] text-center"
+      >
+        What People Say
+      </p>
+
+      <div class="flex flex-col gap-[20px] h-[832px] w-[338px]">
+        <div
+          class="flex flex-col gap-[31px] rounded-[24px] w-[338px] h-[264px] py-[21px] px-[20px] items-start bg-[#F6FFF8] shadow-xl"
+        >
+          <p
+            class="font-[Raleway] font-regular text-start text-[#414651] text-[16px] leading-[24px]"
+          >
+            A visual guide could be a wireframe, creative composition, or
+            information architecture. A device that enables collaboration will
+            lessen the chance of work having to be completely redone.
+          </p>
+
+          <div class="flex items-center gap-[16px]">
+            <img src="/alhajaimage.png" alt="" />
+
+            <div class="flex flex-col gap-[6px]">
+              <p
+                class="font-[Raleway] font-bold text-start text-[#5D5A88] text-[16px]"
+              >
+                John Carter
+              </p>
+              <p
+                class="font-[Raleway] font-regular text-start text-[#8D8BA7] text-[16px]"
+              >
+                Business Woman
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col gap-[31px] rounded-[24px] w-[338px] h-[264px] py-[21px] px-[20px] items-start bg-[#F6FFF8] shadow-xl"
+        >
+          <p
+            class="font-[Raleway] font-regular text-start text-[#414651] text-[16px] leading-[24px]"
+          >
+            A visual guide could be a wireframe, creative composition, or
+            information architecture. A device that enables collaboration will
+            lessen the chance of work having to be completely redone.
+          </p>
+
+          <div class="flex items-center gap-[16px]">
+            <img src="/alhajaimage.png" alt="" />
+
+            <div class="flex flex-col gap-[6px]">
+              <p
+                class="font-[Raleway] font-bold text-start text-[#5D5A88] text-[16px]"
+              >
+                John Carter
+              </p>
+              <p
+                class="font-[Raleway] font-regular text-start text-[#8D8BA7] text-[16px]"
+              >
+                Business Woman
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col gap-[31px] rounded-[24px] w-[338px] h-[264px] py-[21px] px-[20px] items-start bg-[#F6FFF8] shadow-xl"
+        >
+          <p
+            class="font-[Raleway] font-regular text-start text-[#414651] text-[16px] leading-[24px]"
+          >
+            A visual guide could be a wireframe, creative composition, or
+            information architecture. A device that enables collaboration will
+            lessen the chance of work having to be completely redone.
+          </p>
+
+          <div class="flex items-center gap-[16px]">
+            <img src="/alhajaimage.png" alt="" />
+
+            <div class="flex flex-col gap-[6px]">
+              <p
+                class="font-[Raleway] font-bold text-start text-[#5D5A88] text-[16px]"
+              >
+                John Carter
+              </p>
+              <p
+                class="font-[Raleway] font-regular text-start text-[#8D8BA7] text-[16px]"
+              >
+                Business Woman
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========desktop for above mobile========== -->
+    <section
+      class="flex flex-col m-auto gap-[30px] mt-[50px] h-[461px] w-[1240px] md:block hidden"
+    >
+      <p
+        class="font-bold font-[Raleway] text-[48px] text-[#CA7F4D] text-center"
+      >
+        What People Say
+      </p>
+
+      <div class="flex m-auto gap-[38px] h-[371px] w-[1240px]">
+        <div
+          class="flex flex-col gap-[50px] rounded-[24px] w-[388px] h-[371px] py-[41px] px-[40px] items-start bg-[#F6FFF8] shadow-xl/30"
+        >
+          <p
+            class="font-[Raleway] font-regular text-start text-[#414651] text-[18px] leading-[28px] w-[308px]"
+          >
+            A visual guide could be a wireframe, creative composition, or
+            information architecture. A device that enables collaboration will
+            lessen the chance of work having to be completely redone.
+          </p>
+
+          <div class="flex items-center gap-[16px]">
+            <img src="/alhajaimage.png" alt="" />
+
+            <div class="flex flex-col gap-[6px]">
+              <p
+                class="font-[Raleway] font-bold text-start text-[#5D5A88] text-[18px]"
+              >
+                John Carter
+              </p>
+              <p
+                class="font-[Raleway] font-regular text-start text-[#8D8BA7] text-[18px]"
+              >
+                Business Woman
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col gap-[50px] rounded-[24px] w-[388px] h-[371px] py-[41px] px-[40px] items-start bg-[#F6FFF8] shadow-xl/30"
+        >
+          <p
+            class="font-[Raleway] font-regular text-start text-[#414651] text-[18px] leading-[28px] w-[308px]"
+          >
+            A visual guide could be a wireframe, creative composition, or
+            information architecture. A device that enables collaboration will
+            lessen the chance of work having to be completely redone.
+          </p>
+
+          <div class="flex items-center gap-[16px]">
+            <img src="/alhajaimage.png" alt="" />
+
+            <div class="flex flex-col gap-[6px]">
+              <p
+                class="font-[Raleway] font-bold text-start text-[#5D5A88] text-[18px]"
+              >
+                John Carter
+              </p>
+              <p
+                class="font-[Raleway] font-regular text-start text-[#8D8BA7] text-[18px]"
+              >
+                Business Woman
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col gap-[50px] rounded-[24px] w-[388px] h-[371px] py-[41px] px-[40px] items-start bg-[#F6FFF8] shadow-xl/30"
+        >
+          <p
+            class="font-[Raleway] font-regular text-start text-[#414651] text-[18px] leading-[28px] w-[308px]"
+          >
+            A visual guide could be a wireframe, creative composition, or
+            information architecture. A device that enables collaboration will
+            lessen the chance of work having to be completely redone.
+          </p>
+
+          <div class="flex items-center gap-[16px]">
+            <img src="/alhajaimage.png" alt="" />
+
+            <div class="flex flex-col gap-[6px]">
+              <p
+                class="font-[Raleway] font-bold text-start text-[#5D5A88] text-[18px]"
+              >
+                John Carter
+              </p>
+              <p
+                class="font-[Raleway] font-regular text-start text-[#8D8BA7] text-[18px]"
+              >
+                Business Woman
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="mt-[50px] h-[244px] w-[341px] flex flex-col gap-[16px] rounded-[27px] py-[31px] px-[15px] bg-[#252B37] items-center m-auto md:hidden"
+    >
+      <p
+        class="font-bold font-[Raleway] text-[18px] text-[#FDFDFD] text-center"
+      >
+        Stay Connected. Get Involved
+      </p>
+
+      <p
+        class="font-medium font-[Raleway] text-[16px] text-[#F5F5F5] text-center"
+      >
+        Discover local government projects, share your feedback, and get
+        real-time updates—all from one place.
+      </p>
+
+      <button
+        class="bg-[#CA7F4D] rounded-[6px] w-[213px] h-[50px] py-[11px] px-[73px] font-medium font-[Raleway] text-[18px]"
+      >
+        Sign Up
+      </button>
+    </section>
+
+    <!-- ====================desktop for above section============ -->
+
+    <section
+      class="md:flex relative md:justify-between mt-[50px] h-[413px] w-[1240px] rounded-[23px] py-[25px] px-[50px] bg-[#252B37] items-center mt-[300px] m-auto md:block hidden"
+    >
+      <div class="flex flex-col gap-[20px] w-[496px] h-[320px]">
+        <p
+          class="font-bold font-[Raleway] text-[48px] w-[397px] text-[#FDFDFD] text-start"
+        >
+          Stay Connected. Get Involved
+        </p>
+
+        <p
+          class="font-medium font-[Raleway] text-[24px] text-[#F5F5F5] text-start"
+        >
+          Discover local government projects, share your feedback, and get
+          real-time updates—all from one place.
+        </p>
+
+        <button
+          class="bg-[#CA7F4D] rounded-[6px] w-[213px] h-[50px] py-[11px] px-[73px] font-medium font-[Raleway] text-white text-[18px] text-center"
+        >
+          Sign Up
+        </button>
+      </div>
+
+      <img
+        src="/phonesssssssImage.png"
+        alt=""
+        class="absolute left-[620px] top-[-205px]"
+      />
+    </section>
+
+    <!-- =============== -->
+
+    <footer
+      class="w-[375px] h-[220px] mt-[50px] py-[40px] px-[20px] gap-[22px] flex flex-col items-center bg-[#181D27] md:hidden"
+    >
+      <div class="flex gap-[16px]">
+        <img src="/Facebook.png" alt="" />
+        <img src="/Twitter.png" alt="" />
+        <img src="/Instagram.png" alt="" />
+      </div>
+
+      <div
+        class="flex justify-between w-[178px] font-[Raleway] font-regular text-start text-[#D5D7DA] text-[14px]"
+      >
+        <p>Features</p>
+        <p>Testimonials</p>
+      </div>
+
+      <p
+        class="font-[Raleway] font-regular text-center text-[#D5D7DA] text-[14px] leading-[20px]"
+      >
+        Copyright © 2023 BRIX Templates | All Rights Reserved
+      </p>
+    </footer>
+
+    <!-- =======desktop======= -->
+    <footer
+      class="w-[1440px] h-[162px] mt-[50px] py-[40px] px-[80px] gap-[22px] md:flex flex-row-reverse justify-between items-center bg-[#181D27] md:block hidden"
+    >
+      <div
+        class="flex flex-row-reverse gap-[100px] justify-center items-center"
+      >
+        <div class="flex gap-[16px]">
+          <img src="/Facebook.png" alt="" />
+          <img src="/Twitter.png" alt="" />
+          <img src="/Instagram.png" alt="" />
+        </div>
+
+        <div
+          class="flex justify-between w-[178px] font-[Raleway] font-regular text-start text-[#D5D7DA] text-[18px]"
+        >
+          <p>Features</p>
+          <p>Testimonials</p>
+        </div>
+      </div>
+
+      <p
+        class="font-[Raleway] font-regular text-center text-[#D5D7DA] text-[18px] leading-[28px]"
+      >
+        Copyright © 2023 BRIX Templates | All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>
